@@ -47,6 +47,7 @@ always_ff @(posedge error)begin
 	end
 assign out_ready = out_ready_ff;
 assign out_signal = out_signal_ff;
+endmodule
 			
 					
 			
